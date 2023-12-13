@@ -1,0 +1,39 @@
+.ranks button{
+    border: none;
+    color: var(--Medium-Gray, #7C8798);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.175px;
+    background-color: #262E38;
+    border-radius: 20px;
+    padding: 8px 17px;
+}
+
+#submit{
+    border-radius: 22.5px;
+    background: var(--Orange, #FC7614);
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 12px 0;
+    color: var(--Pure-White, #FFF);
+    font-size: 14px;
+    letter-spacing: 1.867px;
+    text-transform: uppercase;
+}
+
+#submit:active{
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
+
+.ranks button:active{
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
+
+

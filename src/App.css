@@ -3,7 +3,8 @@
   border-radius: 15px;
   background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
   color: white;
-
+  padding: 24px;
+  font-family: 'Overpass', sans-serif;
 }
 
 body{
@@ -12,6 +13,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 24px;
 }
 
 .ranks{
@@ -21,3 +23,11 @@ body{
   margin-top: 24px;
 }
 
+@media screen and (min-width: 768px){
+  .App{
+    width: 412px;
+  }
+  .ranks{
+    justify-content: space-between;
+  }
+}

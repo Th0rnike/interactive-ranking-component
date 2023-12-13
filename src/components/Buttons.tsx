@@ -1,3 +1,5 @@
+import "./buttons.css";
+
 interface ButtonProps {
   handleClick: (r: number) => void;
   submitRating: () => void;
@@ -8,12 +10,18 @@ export default function Buttons(props: ButtonProps) {
     <div>
       <div className="ranks">
         {[1, 2, 3, 4, 5].map((r: number) => (
-          <button onClick={() => props.handleClick(r)} key={r}>
+          <button
+            id={`button_${r}`}
+            onClick={() => props.handleClick(r)}
+            key={r}
+          >
             {r}
           </button>
         ))}
       </div>
-      <button onClick={props.submitRating}>Submit</button>
+      <button id="submit" onClick={props.submitRating}>
+        Submit
+      </button>
     </div>
   );
 }

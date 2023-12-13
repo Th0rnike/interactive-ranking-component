@@ -3,6 +3,7 @@ import "./App.css";
 import StaticComponent from "./components/StaticComponent";
 import Buttons from "./components/Buttons";
 import Thank from "./components/Thank";
+import "./components/buttons.css";
 
 function App() {
   const [rating, setRating] = useState<number>();

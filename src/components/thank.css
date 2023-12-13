@@ -1,0 +1,44 @@
+.thank_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 144px;
+    height: 96px;
+}
+
+.thank_div #stat{
+    color: var(--Orange, #FC7614);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 22.5px;
+    background: var(--Dark-Blue, #262E38);
+    width: fit-content;
+    padding: 5px 12px;
+}
+
+.thank_div h1{
+    color: var(--Pure-White, #FFF);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.thank_div p{
+    color: var(--Light-Grey, #969FAD);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
